@@ -6,7 +6,7 @@ Species Mapping & Analysis Platform (SpeciesMAP)
 A customisable R Shiny template for displaying and interrogating species
 distribution data. 
 
-Visit the GitHub repo for the latest version: https://github.com/MattIDCarter/SpeciesMAP.git
+Visit the GitHub repo for the latest updates: https://github.com/MattIDCarter/SpeciesMAP.git
 
 
 
@@ -40,7 +40,7 @@ On the Download Data tab, there is a button to download the distribution estimat
 
 ### Installation
 
-Clone or download this repository and open the project in RStudio.
+Clone or download this repository and open the R project file `SpeciesMAP_Template.Rproj` in RStudio.
 
 Install the required packages:
 
@@ -86,6 +86,8 @@ R/
 ├── maps.R
 ├── server.R
 └── ui.R
+
+SpeciesMAP_Template.Rproj
 
 www/
 ├── images/
@@ -186,6 +188,11 @@ This controls how user inputs are processed and how maps and outputs are updated
 This file should generally not need to be modified when adapting the template.
 
 
+### `SpeciesMAP_Template.Rproj`
+
+This is an RStudio project file. Open this in RStudio to start to customise the application.
+
+
 ### `www/images/`
 
 This folder hosts images used on the app, such as logos, diagrams or photographs.
@@ -193,19 +200,19 @@ Some example logos are placed here to demonstrate how they would be displayed. T
 adapting the template.
 
 
-### `static/css/styles.css`
+### `www/static/css/styles.css`
 
 This file contains styling logic relating to the display of certain features such as radio buttons and clickable buttons.
 This file should generally not need to be modified when adapting the template.
 
 
-### `static/html/`
+### `www/static/html/`
 
 This folder contains html files which host the main body of text for the application.
 The text should be modified in each one (using html code) to reflect the relevant information when adapting the template.
 
 
-### `static/js/app.js`
+### `www/static/js/app.js`
 
 This file contains java script used to control the behaviour of certain application display elements.
 This file should generally not need to be modified when adapting the template.
