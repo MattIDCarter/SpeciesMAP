@@ -7,7 +7,7 @@ A customisable R Shiny template for displaying and interrogating species
 distribution data. 
 
 Visit the GitHub repo for the latest updates: https://github.com/MattIDCarter/SpeciesMAP.git
-
+[![DOI](https://zenodo.org/badge/1340527393.svg)](https://doi.org/10.5281/zenodo.22029023)
 
 
 ## Overview
