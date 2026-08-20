@@ -6,6 +6,8 @@ Species Mapping & Analysis Platform (SpeciesMAP)
 A customisable R Shiny template for displaying and interrogating species
 distribution data. 
 
+Visit the GitHub repo for the latest version: https://github.com/MattIDCarter/SpeciesMAP.git
+
 
 
 ## Overview
