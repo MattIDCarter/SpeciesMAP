@@ -2,3 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
+generate_data.R
+README.html
