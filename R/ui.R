@@ -252,7 +252,7 @@ dashboard_tab <- function(
         
         tags$footer(
           style="position: fixed; bottom: 0; width: 100%; background-color: #f1f1f1; text-align: left; padding: 7px;",
-          p(style="display: inline;", "App built with the ", a(href="https://arts.st-andrews.ac.uk/shiny/smru/sealmap/", "SealMAP", target="_blank", style="display: inline;"), " framework")
+          p(style="display: inline;", "App built with the ", a(href="https://github.com/MattIDCarter/SpeciesMAP", "SpeciesMAP", target="_blank", style="display: inline;"), " framework")
         )
         
       )
