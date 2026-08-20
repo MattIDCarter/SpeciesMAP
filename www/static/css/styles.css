@@ -1,0 +1,81 @@
+div.well {
+  margin: auto;
+	width: 50%;
+}
+
+div.radio {
+  padding: 0.5em 0 0.5em 0;
+}
+
+* {font-family: "Arial"};
+
+.content-wrapper, .right-side {background-color: #dedfe0;}
+
+.modal {
+  animation: fadeIn 0.5s; /* Animation for modal appearance */
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+.modal-header {
+  background-color: #0073b8; /* Custom header color */
+	color: white; /* Header text color */
+}
+
+.modal-body {
+  background-color: #f0f0f0; /* Custom body color */
+	font-size: 16px; /* Font size */
+}
+
+.modal-footer {
+  background-color: #f9f9f9; /* Footer background color */
+}
+
+#custom-modal {
+  max-width: 600px; /* Max width for the modal */
+}
+
+.important {
+  font-style: italic;
+	font-weight: bold;
+}
+
+a.header_logo {
+  padding-top: 0 !important;
+	padding-bottom: 60px !important;
+	padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.header_logo {
+  height: 60px;
+	align: right;
+}
+
+span.logo {
+  height: 60px !important;
+}
+
+/* questions in QnA */
+p.q {
+  font-weight: bold;
+}
+
+small {
+  color: grey; 
+	display: block; 
+	margin-top: 10px;
+}
+
+/* colours for form buttons */
+#calculate {
+  background-color: #6f6;
+}
+
+#reset {
+  background-color: #f66;
+}
+
