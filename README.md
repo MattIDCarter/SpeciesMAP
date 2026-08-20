@@ -303,4 +303,10 @@ This application framework was developed by Matt Carter, Swithun Crowe, and Hann
 Sea Mammal Research Unit (SMRU), University of St Andrews.
 
 Matt Carter: midc@st-andrews.ac.uk
- 
+
+
+
+## Funding
+
+SpeciesMAP was jointly funded by the UK Government Department for Energy Security and Net Zero (DESNZ) (facilitated by Hartley Anderson Ltd.), 
+and the Scottish Government Marine Directorate. 
