@@ -973,16 +973,16 @@ app_server <- function(input, output, session) {
   # ----------------------------------------------------------
   
   observeEvent(
-    input$selectSpecs,
+    input$selectData,
     {
       
       req(
-        input$selectSpecs
+        input$selectData
       )
       
       
       map_info <- get_selected_map(
-        input$selectSpecs,
+        input$selectData,
         map_data
       )
       
@@ -1530,7 +1530,7 @@ app_server <- function(input, output, session) {
           map_info <-
             get_selected_map(
               
-              input$selectSpecsEstimate,
+              input$selectDataEstimate,
               
               map_data
               

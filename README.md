@@ -17,9 +17,8 @@ application to display species distribution estimates and allow users
 to define an Area of Interest (AOI) and extract estimates of density within that AOI.
 
 The template is deliberately designed to be adaptable to different datasets. Dataset-specific 
-components should be defined in `config/config.R` and the
-associated data functions, while the core Shiny framework can remain
-largely unchanged.
+components and the associated data functions should be defined in `config/config.R`, 
+while the core Shiny framework can remain largely unchanged.
 
 Simulated species distributions for two hypothetical marine species are provided
 as example datasets, and `config/config.R` is set up by default to handle these.
@@ -230,7 +229,7 @@ file paths and raster identifiers should be stored in `data/csv/`.
 
 ### Uncertainty
 
-If you would like the app to enable area-based confidence intervals, this can be enable in 
+If you would like the app to enable area-based confidence intervals, this can be enabled in 
 `config/config.R`. You will need to supply a matrix .RDS object containing uncertainty estimates.
 This would typically be the outputs of bootstrapping or posterior sampling from the 
 species distribution model. The matrix should have one row per grid cell in the mean raster and

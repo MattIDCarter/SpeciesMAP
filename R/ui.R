@@ -210,7 +210,7 @@ dashboard_tab <- function(
         
         radioButtons(
           
-          inputId = "selectSpecs",
+          inputId = "selectData",
           
           label = NULL,
           
@@ -428,11 +428,11 @@ extraction_tab <- function(
             
             tags$li(
               
-              h4("Select Species"),
+              h4("Select Dataset"),
               
               radioButtons(
                 
-                inputId = "selectSpecsEstimate",
+                inputId = "selectDataEstimate",
                 
                 label = NULL,
                 
