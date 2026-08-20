@@ -11,7 +11,7 @@ Visit the GitHub repo for the latest updates: https://github.com/MattIDCarter/Sp
 Citation information:
 Carter M.I.D., Crowe S. and Wyles H.M.E. (2026) ‘SpeciesMAP: R Shiny Mapping & Analysis Platform template for species distribution data’. doi: 10.5281/zenodo.22029023.
 
-[![DOI](https://zenodo.org/badge/1340527393.svg)](https://doi.org/10.5281/zenodo.22029023)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22029023.svg)](https://doi.org/10.5281/zenodo.22029023)
 
 
 ## Overview
