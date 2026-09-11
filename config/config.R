@@ -118,8 +118,9 @@ MAP_VIEW <- list(
   ),
   
   # Basemap
-  tiles = "CartoDB.PositronNoLabels"
-  
+  tiles = "CartoDB.PositronNoLabels",
+  carto = "https://basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}.png?key=cb1_2mef_1_d68822f69aeca5ff4eb4f2b6",
+  attribution = '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors © <a href="https://carto.com/attributions">CARTO</a>'
 )
 
 

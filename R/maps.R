@@ -79,9 +79,7 @@ create_base_map <- function(
     
   ) %>%
     
-    addProviderTiles(
-      view$tiles
-    ) %>%
+    addTiles(view$carto, attribution = view$attribution) %>%
     
     setView(
       lng = view$lng,
@@ -139,7 +137,7 @@ create_base_map <- function(
   map
   
 }
-
+?addTiles
 
 # ------------------------------------------------------------
 # Add land layer
